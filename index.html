@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@800&display=swap');
+        body{
+            background-color: #e2fdff;
+        }
+        .info-card
+        {
+            
+            height: auto;
+            border: 2px solid black;
+            border-radius: 5px  ;
+            position: relative;
+        }
+        .line
+        {
+            width: 70%;
+            height: .4rem;
+            position: absolute;
+            left: 15%;
+            background-color: #ff006e;
+        }.content,.org
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .org{
+            width: 8rem;
+            height: 8rem;
+            border: 3px solid #ff006e;
+            overflow: hidden;
+            
+        }
+        button{
+            width: 100%;
+            border: 2px solid black;
+            outline: none;
+            background-color: #ff006e;
+            border-radius: 3px;
+            
+        }
+        button:hover{
+            color: white;
+        }
+        .head
+        {
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="row mt-0">
+        <div class="col-md-12 head p-2 col-12 col-lg-12 col-sm-12 mx-auto">
+            <a href="https://github.com/Velocity-IIITDWD" class="text-center"><img src="logo.jpeg" style="object-fit: cover; width: 5rem; height: 5rem;" alt=""></a>
+            <div>
+                <h3 class="text-center text-white mt-11 mx-3" style="font-family: 'Merriweather', serif;">Velocity - <span class="text-danger">Club</span></h3>
+                <h6 class="text-center text-white  " style="font-family: 'Merriweather', serif; line-height: .1rem;"><strong>IIT</strong> - <span class="text-success"><strong>Dharwad</strong></span></h6>
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="row mt-4">
+            <div class=" info-card  col-md-3 mt-3 col-10 col-lg-3 col-sm-3 mx-auto">
+                <div class="line"></div>
+                <div class="content p-4 mt-2">
+                    <div class="org">
+                        <img src="https://cdn.dribbble.com/users/364116/screenshots/1899338/yogocat_animation.gif" style="object-fit: contain; width: 100%;" alt="">
+                    </div>
+                    <h5 class="text-center mt-3" style="font-family: 'Merriweather', serif; font-weight: 700;">Github</h5>
+                    <p style="font-family: 'Merriweather', serif;" class="text-center text-secondary text-capitalize">We provided content related to frontend development .For more information you can follow our profile. <span class="text-danger" >THANKS </span>!</p>
+
+                    <a href="https://github.com/Velocity-IIITDWD"><button class="px-2 mt-2 py-1"><i class="fa fa-github mx-2" aria-required="true" ></i><strong>Github</strong></button></a>
+                </div>
+            </div>
+
+            <!-- facebook  -->
+            <div class=" info-card  col-md-3 mt-3 col-10 col-lg-3 col-sm-3 mx-auto">
+                <div class="line" style="background-color:#ffd60a ;"></div>
+                <div class="content p-4 mt-2">
+                    <div class="org" style="border: 3px solid #ffd60a;">
+                        <img src="https://cliply.co/wp-content/uploads/2019/07/371907490_FACEBOOK_ICON_400px.gif" style="object-fit: cover; width: 100%;" alt="">
+                    </div>
+                    <h5 class="text-center mt-3" style="font-family: 'Merriweather', serif; font-weight: 700;">Facebook</h5>
+                    <p style="font-family: 'Merriweather', serif;" class="text-center text-secondary text-capitalize">We provided content related to frontend development .For more information you can follow our profile. <span class="text-danger" >THANKS </span>!</p>
+
+                    <a href="#"><button id="facebook" class="px-2 mt-2 py-1 " style="background-color:#ffd60a ;"><i class="fa fa-facebook mx-2" aria-required="true" ></i><strong>Facebook</strong></button></a>
+                </div>
+            </div>
+
+            <!-- instagram  -->
+
+            <div class=" info-card  col-md-3 mt-3 col-10 col-lg-3 col-sm-3 mx-auto">
+                <div class="line" style="background-color:#38b000 ;"></div>
+                <div class="content p-4 mt-2">
+                    <div class="org" style="border: 3px solid #38b000;">
+                        <img src="https://influence.digital/wp-content/uploads/2020/01/giphy-1-2.gif" style="object-fit: cover; width: 100%;" alt="">
+                    </div>
+                    <h5 class="text-center mt-3" style="font-family: 'Merriweather', serif; font-weight: 700;">Instagram</h5>
+                    <p style="font-family: 'Merriweather', serif;" class="text-center text-secondary text-capitalize">We provided content related to frontend development .For more information you can follow our profile. <span class="text-danger" >THANKS </span>!</p>
+
+                    <a href="https://www.instagram.com/velocity.iiitdwd/"><button class="px-2 mt-2 py-1" style="background-color:#38b000 ;"><i class="fa fa-instagram mx-2" aria-required="true" ></i><strong>Instagram</strong></button></a>
+                </div>
+            </div>
+
+            <!-- whatsapp  -->
+
+            <div class=" info-card  col-md-3 mt-3 col-10 col-lg-3 col-sm-3 mx-auto">
+                <div class="line" style="background-color:#580aff ;"></div>
+                <div class="content p-4 mt-2">
+                    <div class="org" style="border: 3px solid #580aff;">
+                        <img src="https://himachalcybercell.com/wp-content/uploads/2020/06/giphy.gif" style="object-fit: cover; width: 100%;" alt="">
+                    </div>
+                    <h5 class="text-center mt-3" style="font-family: 'Merriweather', serif; font-weight: 700;">Whatsapp</h5>
+                    <p style="font-family: 'Merriweather', serif;" class="text-center text-secondary text-capitalize">We provided content related to frontend development .For more information you can follow our profile. <span class="text-danger" >THANKS </span>!</p>
+
+                    <a href="#"><button  id="whatsapp" class="px-2 mt-2 py-1 w3-button w3-black" style="background-color:#580aff ;"><i class="fa fa-whatsapp mx-2" aria-required="true" ></i><strong>Whatsapp</strong></button></a>
+                </div>
+            </div>
+
+            
+            <!-- linkedin  -->
+            <div class=" info-card  col-md-3 mt-3 col-10 col-lg-3 col-sm-3 mx-auto">
+                <div class="line" style="background-color:#ff7700 ;"></div>
+                <div class="content p-4 mt-2">
+                    <div class="org" style="border: 3px solid #ff7700;">
+                        <img src="https://c.tenor.com/gAuc_z2-8wcAAAAC/downsign-linked-in.gif" style="object-fit: cover; width: 100%;" alt="">
+                    </div>
+                    <h5 class="text-center mt-3" style="font-family: 'Merriweather', serif; font-weight: 700;">Linkedin</h5>
+                    <p style="font-family: 'Merriweather', serif;" class="text-center text-secondary text-capitalize">We provided content related to frontend development .For more information you can follow our profile. <span class="text-danger" >THANKS </span>!</p>
+
+                    <a href="https://www.linkedin.com/company/velocity-iiit-dharwad/"><button  class="px-2 mt-2 py-1" style="background-color:#ff7700 ;"><i class="fa fa-linkedin mx-2" aria-required="true" ></i><strong>Linkedin</strong></button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-md-12 head p-2 col-12 col-lg-12 col-sm-12 mx-auto">
+            <a href="https://github.com/Velocity-IIITDWD" class="text-center"><img src="logo.jpeg" style="object-fit: cover; width: 5rem; height: 5rem;" alt=""></a>
+            <div>
+                <h3 class="text-center text-white mt-1 mx-3" style="font-family: 'Merriweather', serif;">Velocity - <span class="text-danger">Club</span></h3>
+                <h6 class="text-center text-white  " style="font-family: 'Merriweather', serif; line-height: .1rem;"><strong>IIT</strong> - <span class="text-success"><strong>Dharwad</strong></span></h6>
+            </div>
+            <h3 class="text-end text-white  mx-5" style="font-family: 'Merriweather', serif;">Thanking You </h3>
+    </div>
+    <script>
+        
+
+// When the user clicks anywhere outside of the modal, close it
+const whatsapp=document.querySelector("#whatsapp");
+                whatsapp.addEventListener("click",()=>{
+                    alert("Mobile Number To Join Webdevelopment Group : 8675-8676" );
+                });
+const facebook=document.querySelector("#facebook");
+                facebook.addEventListener("click",()=>{
+                    alert("We Will Hear Your Response Soon !" );
+                });
+    </script>
+</body>
+</html>
